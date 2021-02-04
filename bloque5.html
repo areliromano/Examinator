@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examinator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <script type="text/javascript" src="js/iconwc.js"></script>
+    <script type="text/javascript" src="js/evaluacion.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="index.html">Examinator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Este botón despliega la barra de navegación.</span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque1.html">Bloque 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque2.html">Bloque 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque3.html">Bloque 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque4.html">Bloque 4</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="bloque5.html">Bloque 5</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron" style="background-color:black">
+            <div class="row">
+                <div class="col-md-9">
+                    <font style="color:bisque">
+                    <h1>Examen de Ciencias Bloque 5</h1>
+                    <p>
+                        En el exámen se verán algunos temas del bloque 5 los cuales son:
+                        <br> El universo.
+                    </p>
+                    </font>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/universo.gif" width="150" height="111" hspace=0>
+                </div>
+            </div>
+        </div>
+        <div class="card border-success form-group form-horizontal col-md-12">
+            <form name="frmExamen" method="post" action="">
+                <ol>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>En el principio el ____ estaba concentrado en un punto hasta que comenzó a expandirse.
+                            </li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta1" value="10"> Universo.
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> Via láctea.
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> Sol.
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> costelación de Orión.
+                            <br>
+                            <input type="radio" name="pregunta1" value="-5"> Estómago de mi papá
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>La ____ describe que el universo se está expandiendo en todas direcciones. </li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta2" value="0"> Ley del espacio-tiempo.
+                            <br>
+                            <input type="radio" name="pregunta2" value="0"> Ley de Hawking
+                            <br>
+                            <input type="radio" name="pregunta2" value="0"> Ley de gravitación universal.
+                            <br>
+                            <input type="radio" name="pregunta2" value="-5"> Fuerza
+                            <br>
+                            <input type="radio" name="pregunta2" value="10"> Ley de Hubble.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>¿Quién fue el primero en observar las estrellas?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta3" value="10"> Galileo
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Ptolomeo
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Eustaquio
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Aristóteles
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Newton
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>¿Qué instrumento usó el primer científico para estudiar las estrellas?
+                            </li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta4" value="0"> Microscópio.
+                            <br>
+                            <input type="radio" name="pregunta4" value="10"> Telescopio refractor.
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> Telescopio Hubble.
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> Microscopio electrónico.
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> Simple vista.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Planeta rocoso, de color rojizo y grandes volcanes conocido como:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta5" value="10"> Marte.
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> Venus.
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> Saturno.
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> Júpiter.
+                            <br>
+                            <input type="radio" name="pregunta5" value="-5"> Luna.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Cuál de las siguientes teórias del Big Bang es cierta:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta6" value="0"> Una explosión en el Universo es causada por la fuerza de atracción gravitacional.
+                            <br>
+                            <input type="radio" name="pregunta6" value="0"> Una implosión en el Universo es causada por la fuerza de la antimateria.
+                            <br>
+                            <input type="radio" name="pregunta6" value="0"> Una explosión en el Universo es causada por el Sol.
+                            <br>
+                            <input type="radio" name="pregunta6" value="0"> Una implosión en el Universo es causada por un agujero negro.
+                            <br>
+                            <input type="radio" name="pregunta6" value="10"> Una implosión en el Universo es causada por la fuerza de atracción gravitacional.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Cuál de las siguientes alternativas corresponde a la secuencia correcta de la estructura del Sol, desde el interior al exterior:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta7" value="10"> nucleo-zona radiactiva-fotósfera-corona.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> corona-zona radiactiva-fotosfera-nucleo.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> nucleo-fotosfera-zona radiactiva-corona.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> corona-nucleo-zona radiactiva-fotosfera.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> zona radiactiva-nucleo-fotosfera-corona.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>La nube de Magallanes es un ejemplo de:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta8" value="0"> Galaxia regular
+                            <br>
+                            <input type="radio" name="pregunta8" value="10"> Galaxia irregular.
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> Galaxia normal.
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> Galaxia anormal.
+                            <br>
+                            <input type="radio" name="pregunta8" value="-5"> Probabilidad de lluvia.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>¿Qué son las estrellas?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta9" value="0"> Lo opuesto a un agujero negro.
+                            <br>
+                            <input type="radio" name="pregunta9" value="0"> Son cuerpos celestes que poseen bajas temperaturas y emiten radiación solar.
+                            <br>
+                            <input type="radio" name="pregunta9" value="0"> Desechos del Sol.
+                            <br>
+                            <input type="radio" name="pregunta9" value="0"> Son cuerpos celestes que forman constelaciones.
+                            <br>
+                            <input type="radio" name="pregunta9" value="10"> Son cuerpos celestes que poseen altas temperaturas y emiten radiación electromagnética.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li> Gracias a las nuevas tecnologías ¿Cuánto podemos observar del universo?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta10" value="0"> 10%
+                            <br>
+                            <input type="radio" name="pregunta10" value="-5"> 110%
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> 50%
+                            <br>
+                            <input type="radio" name="pregunta10" value="10"> 100%
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> 90%
+                        </div>
+                    </div>
+                </ol>
+                <div class="row">
+                    <div class="col-md-8">
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <button class="btn btn-success btn-lg form-control" href='javascript:;' onclick="return calificar();" data-toggle="modal"
+                                data-target="#resultModal" )>Calificar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="myModalLabel">Felicidades! Esta es tu calificación</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="close" onclick="location='index.html'">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <br>                                        
+                                        <label id="lblResultado">Resultado: </label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img id="carita" src="img/face.png" width="43" height="65">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="location='index.html'">Cerrar</button>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- area de scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examinator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <script type="text/javascript" src="js/iconwc.js"></script>
+    <script type="text/javascript" src="js/evaluacion.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="index.html">Examinator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Este botón despliega la barra de navegación.</span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque1.html">Bloque 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque2.html">Bloque 2</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="bloque3.html">Bloque 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque4.html">Bloque 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque5.html">Bloque 5</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron" style="background-color: #2a003f" >
+            <div class="row">
+                <div class="col-md-9">
+                    <font style="color:bisque">
+                        <h1>Examen de Ciencias Bloque 3</h1>
+                        <p>
+                            En el exámen se verán algunos temas del bloque 3 los cuales son:
+                            <br> Modelo para describir la estructura de la materia.
+                        </p>
+                    </font>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/gravedad.gif" width="150" height="111" hspace=0>
+                </div>
+            </div>
+        </div>
+        <div class="card border-success form-group form-horizontal col-md-12">
+            <form name="frmExamen" method="post" action="">
+                <ol>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>El modelo científico tiene como función:
+                            </li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta1" value="10"> Explicar fenómenos estableciendo relaciones y enunciando leyes que expliquen el fenómeno.
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> Explicar nuevas observaciones o fenómenos.
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> Representar lo estudiado mediante una ecuación.
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> Descubrir nuevos fenómenos
+                            <br>
+                            <input type="radio" name="pregunta1" value="-5"> Explicar porque eres un fenómeno.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Nombre del filósofo griego que planteo el modelo heliocéntrico:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta2" value="0"> Claudio Ptolomeo.
+                            <br>
+                            <input type="radio" name="pregunta2" value="0"> Aristóteles.
+                            <br>
+                            <input type="radio" name="pregunta2" value="10"> Aristarco de Samos.
+                            <br>
+                            <input type="radio" name="pregunta2" value="-5"> Newton.
+                            <br>
+                            <input type="radio" name="pregunta2" value="0"> Euclides.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Filósofo griego que planteo que la materia está formada por aire que al comprimirse se da origen al agua y a la tierra:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta3" value="0"> Tales de Mileto.
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Anaximedes.
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Aristóteles.
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Claudio Ptolomeo.
+                            <br>
+                            <input type="radio" name="pregunta3" value="10"> Empédocles.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>¿Cuál de los siguientes postulados no corrsponden a la teoría anatómica planteada por Demócrito?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta4" value="0"> Entre los átomos solo existe vacío.
+                            <br>
+                            <input type="radio" name="pregunta4" value="10"> Los átomos son partículas que representan carga eléctrica, positiva y negativa.
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> Toda la materia está compuesta de átomos sólidos.
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> Yo solo sé que no se nada.
+                            <br>
+                            <input type="radio" name="pregunta4" value="-5"> La carga eléctrica de los átomos dependen de su estado de ánimo.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>La teoría cinético-molecular establece que las propiedades de la materia y su comportamiento se deben a dos factores que son:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta5" value="0"> Calor y movimiento.
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> Calor y volumen.
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> Movimiento y volumen.
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> Densidad y movimiento.
+                            <br>
+                            <input type="radio" name="pregunta5" value="10"> Calor y densidad.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>La energía interna cinética de un cuerpo está formado por:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta6" value="0"> Su energía cinética más su energía potencial.
+                            <br>
+                            <input type="radio" name="pregunta6" value="10"> Su energía cinética más su energía térmica.
+                            <br>
+                            <input type="radio" name="pregunta6" value="0"> Su energía potencial.
+                            <br>
+                            <input type="radio" name="pregunta6" value="0"> Su energía electrica.
+                            <br>
+                            <input type="radio" name="pregunta6" value="-5"> Su energía nuclear.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>La definición "Cantidad de energía necesaria" para elevar un grado la temperatura de 1kg de sustancia corresponde a:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta7" value="10"> Calor específico.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> Capacidad calorífica.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> Calor.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> Temperatura.
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> Temperatura específica.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Cuál de las siguientes alternativas es falsa con respecto al equilibrio térmico entre dos cuerpos:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta8" value="0"> Ambos alcanzan igual temperatura.
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> Si tienen la misma temperatura no hay transferencia de energía entre ambos cuerpos.
+                            <br>
+                            <input type="radio" name="pregunta8" value="10"> Ambos alcanzan distinta temperatura.
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> Ambos se enfrian al mismo tiempo.
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> Ambos se desintegran.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>¿la materia de cualquier cosa ocupa y tiene?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta9" value="0"> Masa y volumen.
+                            <br>
+                            <input type="radio" name="pregunta9" value="0"> Velocidad y espacio.
+                            <br>
+                            <input type="radio" name="pregunta9" value="0"> Masa y tiempo.
+                            <br>
+                            <input type="radio" name="pregunta9" value="10"> Masa y espacio.
+                            <br>
+                            <input type="radio" name="pregunta9" value="-5"> Tiempo y dinero.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li> ¿Cómo están agrupados los elementos en la tabla periódica?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta10" value="0"> De acuerdo a como fueron descubiertos.
+                            <br>
+                            <input type="radio" name="pregunta10" value="10"> De acuerdo a sus números atómicos y peso atómico.
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> En órden alfabético.
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> De acuerdo al numero de electrónes.
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> De acuerdo a la suma de sus electrónes y protones.
+                        </div>
+                    </div>
+                </ol>
+                <div class="row">
+                    <div class="col-md-8">
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <button class="btn btn-success btn-lg form-control" href='javascript:;' onclick="return calificar();" data-toggle="modal"
+                                data-target="#resultModal" )>Calificar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="myModalLabel">Felicidades! Esta es tu calificación</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="close" onclick="location='index.html'">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <br>
+                                        <label id="lblResultado">Resultado: </label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img id="carita" src="img/face.png" width="43" height="65">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="location='index.html'">Cerrar</button>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- area de scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examinator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <script type="text/javascript" src="js/iconwc.js"></script>
+    <script type="text/javascript" src="js/evaluacion.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="index.html">Examinator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Este botón despliega la barra de navegación.</span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="bloque1.html">Bloque 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque2.html">Bloque 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque3.html">Bloque 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque4.html">Bloque 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloque5.html">Bloque 5</a>
+                </li>
+            </ul>        
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron" style="background-color: white">
+            <div class="row">
+                <div class="col-md-9">
+                    <font style="color:black">
+                        <h1>Examen de Ciencias Bloque 1</h1>
+                        <p>
+                            En el exámen se verán algunos temas del bloque 1 los cuales son:
+                            <br> El movimiento de los objetos, trabajo de Galileo y descripción de las fuerzas en el entorno.
+                        </p>
+                    </font>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/onda.gif" width="150" height="111" hspace=0>
+                </div>
+            </div>
+        </div>
+        <div class="card border-success form-group form-horizontal col-md-12">
+            <form name="frmExamen" method="post" action="">
+                <ol>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>María corre a una velocidad constante de 3 m/s al este, ¿cuánto tiempo le tomara recorrer 720
+                                metros?
+                            </li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta1" value="0"> 280 s
+                            <br>
+                            <input type="radio" name="pregunta1" value="10"> 240 s
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> 640 s
+                            <br>
+                            <input type="radio" name="pregunta1" value="0"> medio minuto
+                            <br>
+                            <input type="radio" name="pregunta1" value="-5"> ¡media quesadilla por favor!
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Si juan viajó a 5km al norte en una hora en su coche, ¿cuál fue su velocidad promedio?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta2" value="10"> 5 km/h
+                            <br>
+                            <input type="radio" name="pregunta2" value="0"> 5 h
+                            <br>
+                            <input type="radio" name="pregunta2" value="0"> 5 m/h
+                            <br>
+                            <input type="radio" name="pregunta2" value="15"> 1.38888889 m/s
+                            <br>
+                            <input type="radio" name="pregunta2" value="0"> 5 km
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>¿Cuál de las siguientes no es una característica de la onda?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta3" value="0"> Longitud de onda
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Periodo
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> Frecuencia
+                            <br>
+                            <input type="radio" name="pregunta3" value="0"> crestas y valles
+                            <br>
+                            <input type="radio" name="pregunta3" value="10"> Cuasáres
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>¿Cuál es la aceleración de un vehículo que cambia su velocidad de 100km/h hasta paro total en
+                                10h?
+                            </li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta4" value="0"> 10 k/h
+                            <br>
+                            <input type="radio" name="pregunta4" value="10"> 10 m/s2
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> 10 m/s
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> 10 k/h2
+                            <br>
+                            <input type="radio" name="pregunta4" value="0"> 10 k/s2
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Para las siguientes mediciones: 10 m, 10 m/s y 10 m/s2 ¿Cuál es una medida de distancia, cual
+                                es de rapidez y cual de aceleración?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta5" value="0"> 10 m = Distancia 10 m/s = Aceleración 10 m/s2 = Velocidad
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> 10 m/s = Distancia 10 m = Aceleración 10 m/s2 = Velocidad
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> 10 m = Distancia 10 km/s = Aceleración 10 m/s2 = Velocidad
+                            <br>
+                            <input type="radio" name="pregunta5" value="10"> 10 m = Distancia 10 m/s2 = Aceleración 10 m/s = Velocidad
+                            <br>
+                            <input type="radio" name="pregunta5" value="0"> 10 m/s2 = Distancia 10 m/s = Aceleración 10 m = Velocidad
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Si el tren ha alcanzado una velocidad de 574.8 km/h ¿Cuánto tiempo se demoraría en cruzar París
+                                de sur a oeste?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta6" value="10"> 1 hora 39 minutos
+                            <br>
+                            <input type="radio" name="pregunta6" value="0"> 1 hora 30 minutos
+                            <br>
+                            <input type="radio" name="pregunta6" value="15"> 99 minutos
+                            <br>
+                            <input type="radio" name="pregunta6" value="0"> 2 horas
+                            <br>
+                            <input type="radio" name="pregunta6" value="-5"> medio dia
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Unos perros ejercen una fuerza de 457 Newtons hacia adelante y el hombre, una de 46 Newtons hacia
+                                atrás, entonces ¿la fuerza neta es de?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta7" value="0"> 503 Julios
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> 503 Hertzios
+                            <br>
+                            <input type="radio" name="pregunta7" value="10"> 503 Newtons
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> 503 Watts
+                            <br>
+                            <input type="radio" name="pregunta7" value="0"> 503 Hp
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>Calcula la frecuencia de un sonido que se propaga en el aire con una longitud de onda de 2 m
+                                y una velocidad de 340 m/s</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta8" value="0"> 30 Bytes
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> 30 KHtz
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> 30 Mhtz
+                            <br>
+                            <input type="radio" name="pregunta8" value="0"> 30 THtz
+                            <br>
+                            <input type="radio" name="pregunta8" value="10"> 30 Htz
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li>La fuerza resultante neta que actúa en un cuerpo es cero cuando:</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta9" value="0"> El cuerpo está suspendido en el aire.
+                            <br>
+                            <input type="radio" name="pregunta9" value="10"> El cuerpo está en reposo y sobre él no actúa ninguna fuerza.
+                            <br>
+                            <input type="radio" name="pregunta9" value="0"> El cuerpo está en caída libre.
+                            <br>
+                            <input type="radio" name="pregunta9" value="0"> El cuerpo no existe.
+                            <br>
+                            <input type="radio" name="pregunta9" value="-5"> El cuerpo tiene medidas perfectas.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <li> Pedro y Miguel van sobre patines y de pronto Pedro empuja a Miguel. Si Pedro tiene el doble de
+                                masa que Miguel ¿Qué ocurre?</li>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="pregunta10" value="10"> Pedro se mueve con la Mitad de la aceleración de Miguel, alejándose ambos uno del otro.
+                            <br>
+                            <input type="radio" name="pregunta10" value="-5"> Pedro y Miguel se pelean.
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> Miguel se mueve con la Mitad de la aceleración de Pedro, alejándose ambos uno del otro.
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> Pedro se mueve con la Mitad de la aceleración de Miguel, acercandose ambos uno al otro.
+                            <br>
+                            <input type="radio" name="pregunta10" value="0"> Pedro se mueve con el doble de la aceleración de Miguel, alejándose ambos uno del otro.
+                        </div>
+                    </div>
+                </ol>
+                <div class="row">
+                    <div class="col-md-8">
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <button class="btn btn-success btn-lg form-control" href='javascript:;' onclick="return calificar();" data-toggle="modal"
+                                data-target="#resultModal" )>Calificar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="myModalLabel">Felicidades! Esta es tu calificación</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="close" onclick="location='index.html'">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <br>
+                                        <label id="lblResultado">Resultado: </label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img id="carita" src="img/face.png" width="43" height="65">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="location='index.html'">Cerrar</button>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- area de scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
